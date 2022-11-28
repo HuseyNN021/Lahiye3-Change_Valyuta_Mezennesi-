@@ -1,0 +1,31 @@
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,9,121,1) 45%, rgba(0,212,255,1) 100%);
+
+}
+input{
+    display: block;
+    margin: 20px;
+    background-color: thistle;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    background-color: thistle;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+}
+input:hover{
+    background-color: aqua;
+    padding: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
